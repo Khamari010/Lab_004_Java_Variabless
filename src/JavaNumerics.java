@@ -37,11 +37,21 @@ public class JavaNumerics
         System.out.println("The difference using ints of " + intOperandA + " - " + intOperandB + " is " + intDifference);
         System.out.println("The quotient using ints of " + intOperandA + " / " + intOperandB + " is " + intQuotient);
         System.out.println("The modulo using ints of " + intOperandA + " % " + intOperandB + " is " + intModulo);
-
+        System.out.println("                              ");
+        System.out.println("doubles");
         System.out.println("The sum using ints of " + doubleOperandA + " + " + doubleOperandB + " is " + doubleSum);
         System.out.println("The product using ints of " + doubleOperandA + " * " + doubleOperandB + " is " + doubleProduct);
-        System.out.println("The difference using ints of " + doubleOperandB + " - " + doubleOperandA + " is " + doubleDifference);
-        System.out.println("The quotient using ints of " + doubleOperandB + " / " + doubleOperandA + " is " + doubleQuotient);
+        System.out.println("The difference using ints of " + doubleOperandA + " - " + doubleOperandB + " is " + doubleDifference);
+        System.out.println("The quotient using ints of " + doubleOperandA + " / " + doubleOperandB + " is " + doubleQuotient);
+        System.out.println("                              ");
+        System.out.println("                              ");
+
+        int amountOfTimeSleeping = 60;
+        int minutes = 1;
+
+
+        System.out.println("The amount of time that I've slept in" + " " + amountOfTimeSleeping + " minutes " + "is " + "one hour.");
+
 
 
 

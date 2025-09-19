@@ -1,9 +1,10 @@
 import java.sql.SQLOutput;
 
+import static java.lang.System.in;
+
 public class JavaNumerics
 {
-	public static void main(String[] args)
-	{
+	public static void main(String[]args) {
         int intOperandA = 6;
         int intOperandB = 7;
         int intSum = 7;
@@ -32,25 +33,31 @@ public class JavaNumerics
         doubleQuotient = doubleOperandA / doubleOperandB;
 
 
+        System.out.println("ints");
         System.out.println("The sum using ints of " + intOperandA + " + " + intOperandB + " is " + intSum);
         System.out.println("The product using ints of " + intOperandA + " * " + intOperandB + " is " + intProduct);
         System.out.println("The difference using ints of " + intOperandA + " - " + intOperandB + " is " + intDifference);
         System.out.println("The quotient using ints of " + intOperandA + " / " + intOperandB + " is " + intQuotient);
         System.out.println("The modulo using ints of " + intOperandA + " % " + intOperandB + " is " + intModulo);
         System.out.println("                              ");
-        System.out.println("doubles");
-        System.out.println("The sum using ints of " + doubleOperandA + " + " + doubleOperandB + " is " + doubleSum);
-        System.out.println("The product using ints of " + doubleOperandA + " * " + doubleOperandB + " is " + doubleProduct);
-        System.out.println("The difference using ints of " + doubleOperandA + " - " + doubleOperandB + " is " + doubleDifference);
-        System.out.println("The quotient using ints of " + doubleOperandA + " / " + doubleOperandB + " is " + doubleQuotient);
-        System.out.println("                              ");
-        System.out.println("                              ");
+            System.out.println("doubles");
+            System.out.println("The sum using ints of " + doubleOperandA + " + " + doubleOperandB + " is " + doubleSum);
+            System.out.println("The product using ints of " + doubleOperandA + " * " + doubleOperandB + " is " + doubleProduct);
+            System.out.println("The difference using ints of " + doubleOperandA + " - " + doubleOperandB + " is " + doubleDifference);
+            System.out.println("The quotient using ints of " + doubleOperandA + " / " + doubleOperandB + " is " + doubleQuotient);
+            System.out.println("                              ");
+            System.out.println("                              ");
+            System.out.println("                              ");
+            System.out.println("                              ");
 
-        int amountOfTimeSleeping = 60;
-        int minutes = 1;
+            int amountOfTimeSleeping = 60;
+            int minutes = 1;
 
 
-        System.out.println("The amount of time that I've slept in" + " " + amountOfTimeSleeping + " minutes " + "is " + "one hour.");
+            System.out.println("The amount of time that I've slept in" + " " + amountOfTimeSleeping + " minutes " + "is " + "one hour.");
+
+
+
 
 
 
